@@ -1,4 +1,12 @@
-export default function InputWithLabel({ id, name, type, placeholder, label }) {
+export default function InputWithLabel({
+  id,
+  name,
+  type,
+  placeholder,
+  value,
+  onChange,
+  label,
+}) {
   return (
     <div
       className={`relative ${
@@ -10,7 +18,9 @@ export default function InputWithLabel({ id, name, type, placeholder, label }) {
         name={name}
         type={type}
         placeholder={placeholder}
-        className='peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600'
+        value={value}
+        onChange={onChange}
+        className='w-full h-10 text-gray-900 placeholder-transparent border-b-2 border-gray-300 peer focus:outline-none focus:border-rose-600'
       />
       <label
         htmlFor={name}
