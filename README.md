@@ -1,6 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Table of contents
+
+- [Table of contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Technologies](#technologies)
+  - [Getting Started](#getting-started)
+  - [Learn More](#learn-more)
+  - [Deploy on Vercel](#deploy-on-vercel)
+
+## Introduction
+
+This is part of a technical assesment I had to do for a Frontend Developer position with Mindworks Interactive, a digital agency in Malaysia. The website was built with Next.js and React, using the `getServerSideProps` function to fetch data from [{JSON} Placeholder](https://jsonplaceholder.typicode.com/) upon each request.
+
+I used Tailwind to apply CSS styling, and the built-in Next.js dynamic routes feature to handle routing for each post retrieved from {JSON} Placeholder. Comments for each post can be filtered based on the user's input for comment name, email and body using React's `useState` hook.
+
+## Technologies
+
+- React for creating UI components, React's `useState` hook for keeping track of the form state to filter comments in the post details page.
+- Next.js' built in `next/routing` to handle dynamic routes for each post page, and `getServerSideProps` to fetch data for posts and comments from {JSON} Placeholder.
+- Tailwind CSS for styling, with `jit` mode turned on to enable the cool floating labels for the form inputs. You can see that in action [in this component](components/InputWithLabel.js), and the video tutorial from Tailwind Labs [on YouTube](https://www.youtube.com/watch?v=nJzKi6oIvBA).
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
