@@ -3,6 +3,8 @@
 - [Table of contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Technologies](#technologies)
+  - [Screenshots / Gifs](#screenshots--gifs)
+    - [View the website](#view-the-website)
   - [Getting Started](#getting-started)
   - [Learn More](#learn-more)
   - [Deploy on Vercel](#deploy-on-vercel)
@@ -18,6 +20,18 @@ I used Tailwind to apply CSS styling, and the built-in Next.js dynamic routes fe
 - React for creating UI components, React's `useState` hook for keeping track of the form state to filter comments in the post details page.
 - Next.js' built in `next/routing` to handle dynamic routes for each post page, and `getServerSideProps` to fetch data for posts and comments from {JSON} Placeholder.
 - Tailwind CSS for styling, with `jit` mode turned on to enable the cool floating labels for the form inputs. You can see that in action [in this component](components/InputWithLabel.js), and the video tutorial from Tailwind Labs [on YouTube](https://www.youtube.com/watch?v=nJzKi6oIvBA).
+
+## Screenshots / Gifs
+
+![Website flow](public/media/post.gif)
+
+![Homepage](public/media/homepage.png)
+
+![Post details page](public/media/post-details.png)
+
+### View the website
+
+You can view the live site deployed with Vercel over [on this link]('https://mindworks-interview-frontend.ahmadihsan.com/').
 
 ## Getting Started
 
