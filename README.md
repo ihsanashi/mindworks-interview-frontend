@@ -31,7 +31,7 @@ I used Tailwind to apply CSS styling, and the built-in Next.js dynamic routes fe
 
 ### View the website
 
-You can view the live site deployed with Vercel over [on this link]('https://mindworks-interview-frontend.ahmadihsan.com/').
+You can view the live site deployed with Vercel over [on this link](https://mindworks-interview-frontend.ahmadihsan.com/).
 
 ## Getting Started
 
